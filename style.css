@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #63aef0; */
+    /* background-color: rgb(35, 35, 78); */
+    background-color: rgba(26, 6, 177, 0.574);
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+}
+.p{
+    display: flex;
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    box-shadow: 0 0 1rem rgba(43, 69, 136, 0.501);
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(10, 11, 12, 1); /* Update alpha value to 1 for fully opaque color */
+    color: azure;
+    gap: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+}
+
+main{
+    margin-top: 70px;
+}
+h1{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 800;
+   
+
+    color: rgb(242, 167, 37);
+}
+.message{
+    margin-top: 80px;
+    margin-bottom: 45vh;
+    padding: 5px;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    cursor: pointer;
+    height: 18vh;
+    width: 18vh;
+    border-radius: 0.8rem;
+    border:none ;
+    box-shadow:  0 0 1rem rgba(193, 239, 253, 0.456);
+    font-size: 8vmin;
+    font-weight: 700;
+    color: rgb(58, 125, 183);
+
+}
+#reset{
+    cursor: pointer;
+    background-color: rgba(34, 234, 204, 0.95);
+    color: rgb(2, 79, 103);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+}
+#newGame{
+
+    cursor: pointer;
+    background-color: rgba(34, 234, 204, 0.95);
+    color: rgb(2, 79, 103);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+}
+#msg{
+    padding: 20px;
+    color: rgb(236, 244, 244);
+    font-size: 2rem;
+    margin: 20px;
+}
+.hide{
+    
+    display: none;
+}
